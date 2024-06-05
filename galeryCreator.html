@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pioneiros da Inteligência Artificial</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container-fluid" id="creator">
+        <section class="container-fluid mt-5 content-carousel">
+            <div class="container-fluid mt-5">
+                <h1 class="text-center mb-4">Pioneiros da Inteligência Artificial</h1>
+                <div id="pioneersCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-pioneer="john-mccarthy">
+                            <img src="./370x500-John McCarthy.png" alt="John McCarthy">
+                            <div class="creator-name">
+                                <details class="bio">
+                                    <summary>John McCarthy</summary>
+                                    <p>Boston, 04-09-1927 — Stanford, Califórnia, 23-10-2011.
+                                        Conhecido pelos estudos no campo da inteligência artificial e por ser o criador
+                                        da
+                                        linguagem de programação Lisp. Recebeu o Prêmio Turing de 1972 e a Medalha
+                                        Nacional de
+                                        Ciências dos Estados Unidos de 1991.
+                                    </p>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-pioneer="marvin-minsky">
+                            <img src="./500x500-MARVIN-MINSKY.png" alt="Marvin Minsky">
+                            <div class="creator-name">
+                                <details class="bio">
+                                    <summary>Marvin Lee Minsky</summary>
+                                    <p>Nova Iorque, 09-08-1927 – Boston, 24-01-2016.
+                                        Sua principal área de atuação foi centrada nos estudos cognitivos no campo da
+                                        inteligência artificial. Minski foi co-fundador do Laboratório de Inteligência
+                                        Artificial do Instituto de Tecnologia de Massachusetts (MIT) e autor de diversos
+                                        artigos e livros sobre o tema e suas implicações filosóficas.
+                                    </p>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-pioneer="nathaniel-rochester">
+                            <img src="./500x500-Nathaniel_Rochester.png" alt="Nathaniel Rochester">
+                            <div class="creator-name">
+                                <details class="bio">
+                                    <summary>Nathaniel Rochester</summary>
+                                    <p>Buffalo, Nova Iorque, 14-01-1919 – 08-06-2001.
+                                        Foi com Jerrier Haddad o desenvolvedor principal do IBM 701.
+                                        Recebeu em 1984 com Haddad o Prêmio Pioneiro da Computação. É um IBM Fellow.
+                                    </p>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-pioneer="claude-shannon">
+                            <img src="./500x500-Claude_Elwood_Shannon.png" alt="Claude Shannon">
+                            <div class="creator-name">
+                                <details class="bio">
+                                    <summary>Claude Elwood Shannon</summary>
+                                    <p>Petoskey, Michigan, 30-04-1916 — 24-02-2001.
+                                        Foi um matemático, engenheiro eletrônico e criptógrafo estadunidense, conhecido
+                                        como
+                                        "o pai da teoria da informação".
+                                    </p>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#pioneersCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#pioneersCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid mt-5 content-autor">
+        <section class="container-fluid text-center container-navBar">
+            <div class="content card-header content-navBar">
+                <ul class="container-fluid content-navBar-link">
+                    <li class="nav-link">
+                        <a href="index.html" class="nav-link active" aria-current="true">
+                            <span class="text-black initial">Início</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="container-fluid autor mt-5">
+            <div class="content content-autor-name">
+                <span class="text-light mt-5 autor-name">By Claudio Lima 2024</span>
+            </div>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const pioneer = urlParams.get('pioneer');
+            if (pioneer) {
+                const carouselItems = document.querySelectorAll('.carousel-item');
+                carouselItems.forEach((item, index) => {
+                    if (item.dataset.pioneer === pioneer) {
+                        $('.carousel').carousel(index);
+                    }
+                });
+            }
+        });
+    </script> -->
+</body>
+
+</html>
