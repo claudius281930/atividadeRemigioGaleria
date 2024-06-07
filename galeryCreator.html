@@ -10,16 +10,25 @@
 </head>
 
 <body>
-    <main class="container-fluid" id="creator">
-        <section class="container-fluid mt-5 content-carousel">
-            <div class="container-fluid mt-5">
-                <h1 class="text-center mb-4">Pioneiros da Inteligência Artificial</h1>
+    <main class="container-fluid-sm" id="creator">
+        <section class="container-fluid-sm mt-5 content-carousel">
+
+            <div class="container-fluid-sm mt-5">
+
+                <p class="h1 text-center mb-4 content-text-title"
+                >Pioneiros da Inteligência Artificial</p>
+
                 <div id="pioneersCarousel" class="carousel slide" data-ride="carousel">
+
                     <div class="carousel-inner">
+
                         <div class="carousel-item active" data-pioneer="john-mccarthy">
-                            <img src="./370x500-John McCarthy.png" alt="John McCarthy">
+                            <img src="./370x500-John McCarthy.png" 
+                            class="container-sm img-fluid"
+                            alt="John McCarthy">
+
                             <div class="creator-name">
-                                <details class="bio">
+                                <details class="container-fluid-sm bio">
                                     <summary>John McCarthy</summary>
                                     <p>Boston, 04-09-1927 — Stanford, Califórnia, 23-10-2011.
                                         Conhecido pelos estudos no campo da inteligência artificial e por ser o criador
@@ -31,9 +40,12 @@
                                 </details>
                             </div>
                         </div>
-                        <div class="carousel-item" data-pioneer="marvin-minsky">
-                            <img src="./500x500-MARVIN-MINSKY.png" alt="Marvin Minsky">
-                            <div class="creator-name">
+
+                        <div class="carousel-item" data-pioneer="Marvin-Lee-Minsky">
+                            <img src="./500x500-MARVIN-MINSKY.png" 
+                            class="container-sm img-fluid h-50"
+                            alt="Marvin Minsky">
+                            <div class="container creator-name">
                                 <details class="bio">
                                     <summary>Marvin Lee Minsky</summary>
                                     <p>Nova Iorque, 09-08-1927 – Boston, 24-01-2016.
@@ -45,8 +57,11 @@
                                 </details>
                             </div>
                         </div>
+
                         <div class="carousel-item" data-pioneer="nathaniel-rochester">
-                            <img src="./500x500-Nathaniel_Rochester.png" alt="Nathaniel Rochester">
+                            <img src="./500x500-Nathaniel_Rochester.png" 
+                            class="container-sm img-fluid h-50"
+                            alt="Nathaniel Rochester">
                             <div class="creator-name">
                                 <details class="bio">
                                     <summary>Nathaniel Rochester</summary>
@@ -57,8 +72,11 @@
                                 </details>
                             </div>
                         </div>
+
                         <div class="carousel-item" data-pioneer="claude-shannon">
-                            <img src="./500x500-Claude_Elwood_Shannon.png" alt="Claude Shannon">
+                            <img src="./500x500-Claude_Elwood_Shannon.png" 
+                            class="container-sm img-fluid h-50"
+                            alt="Claude Shannon">
                             <div class="creator-name">
                                 <details class="bio">
                                     <summary>Claude Elwood Shannon</summary>
@@ -71,6 +89,7 @@
                             </div>
                         </div>
                     </div>
+
                     <a class="carousel-control-prev" href="#pioneersCarousel" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     </a>
@@ -81,7 +100,7 @@
             </div>
         </section>
     </main>
-    <footer class="container-fluid mt-5 content-autor">
+    <footer class="container-fluid-sm mt-5 text-center content-autor">
         <section class="container-fluid text-center container-navBar">
             <div class="content card-header content-navBar">
                 <ul class="container-fluid content-navBar-link">
@@ -93,16 +112,16 @@
                 </ul>
             </div>
         </section>
-        <section class="container-fluid autor mt-5">
-            <div class="content content-autor-name">
-                <span class="text-light mt-5 autor-name">By Claudio Lima 2024</span>
+        <section class="container-fluid-sm autor mt-5">
+            <div class="container-fluid">
+                <span class="text-light">By Claudio Lima 2024</span>
             </div>
         </section>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="./script.js"></script>    
+    <script src="./script.js"></script>
 </body>
 
 </html>
